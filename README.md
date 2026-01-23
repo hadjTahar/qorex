@@ -16,7 +16,22 @@ Qorex as in Core Graphics, Qx as a shortcut, is a C++ game engine, app developme
 
 ### How to build
 
-The hardest part is compiling skia
+#### Skia backend
+
+- The hardest part is compiling skia, once you build it (skia, good luck with that)
+- Run "cmake" on the project, it will fail, but will generate a folder at "vendors/skia/libs/FOLDER" where it expects skia library to be found, something like
+	- skia cpu : "vendors/skia/libs/skia_lib_windows10_clang_release_x64_skia_raster"
+ 	- skia opengl : "vendors/skia/libs/skia_lib_windows10_clang_release_x64_skia_opengl"
+    - skia direct3D : "vendors/skia/libs/skia_lib_windows10_clang_release_x64_skia_direct3d"
+    - skia vulkan : "vendors/skia/libs/skia_lib_windows10_clang_release_x64_skia_vulkan"
+- Copy the generated skia.(lib, a, ..) into that folder
+- Run cmake again
+
+### Modules:
+
+- qx: core module 
+- tests: unit testing module
+- benchmarks: benchmarks module
 
 
 ### License:
