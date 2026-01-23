@@ -1,8 +1,7 @@
 ### rendering folder
 
 
-- Check examples
-- Remove "skia_lib_" from skia path
+
 - Update all vendors
 
 
@@ -24,3 +23,4 @@
 
 - views, apply a transform to the canvas
 	for clicks get the canvas transform and use it to check 
+
