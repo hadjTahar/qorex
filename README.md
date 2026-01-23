@@ -27,6 +27,8 @@ Qorex as in Core Graphics, Qx as a shortcut, is a C++ game engine, app developme
 - Copy the generated skia.(lib, a, ..) into that folder
 - Run cmake again
 
+Tha folder changes depending on the "os_comiler_compiler-mode_arch_skia-backend", check skia.md, on how I built it.
+
 ### Modules:
 
 - qx: core module 
