@@ -2,6 +2,13 @@
 
 
 
+### Modules:
+
+- qx: core module
+- examples
+- tests: unit testing module
+- benchmarks: benchmarks module
+
 ### namespaces
 
 - Qx
