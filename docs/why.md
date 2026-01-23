@@ -2,7 +2,7 @@
 
 I created **Qx** because none of the existing tools fully matched how I like to work or what I want to build.
 
-I come from a **Qt Scene Graph** background, and I genuinely like its architectural ideas. Many concepts in Qx are inspired by Qt’s approach to scenes, nodes, and rendering. However, over time Qt has grown into a very large framework. It’s powerful, but for many projects—especially lightweight apps and games—it can feel **bloated**, with a lot of functionality you don’t always need.
+I come from a **Qt Scene Graph** background, and I genuinely like its architectural ideas. Many concepts in Qx are inspired by Qt’s approach to scenes, nodes, and rendering. However, over time Qt has grown into a very large framework. It’s powerful, but for many projects—especially lightweight apps and games—it can feel **bloated**, with a lot of functionality you don’t always need, and lacks game dev.
 
 **Unreal Engine** is extremely capable, but it is primarily focused on high-end game development. It’s heavy by design, not well suited for general app development, and while mobile support exists, it comes with performance, size, and workflow trade-offs that make it less appealing for small or hybrid app/game projects.
 
@@ -36,5 +36,6 @@ Qx is not trying to compete head-on with massive engines. Instead, it’s built 
 Qx exists because modern development tools have drifted away from simplicity. Over time, engines and frameworks have grown into massive ecosystems. They are powerful, but heavy. Feature-rich, but rigid. Optimized for every use case—except the one where a developer wants clarity, control, and speed.
 
 Qx was created as a response to that. It is built on the belief that **an engine should serve the developer, not dictate the workflow**.
+
 
 
