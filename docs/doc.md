@@ -30,6 +30,7 @@ QX_OPT_PRINT_VERBOSE_LEVEL
 
 
 ### Classes
+#### Objects (scene tree)
 - App
 	- Windows
 		- GraphicsLayer:
@@ -43,7 +44,7 @@ QX_OPT_PRINT_VERBOSE_LEVEL
 					- Skia, ThorVG, Blend2D
 			- ::SceneView (3D backend)
  
-
+#### Canvas (backends)
 
 ### 2D VS 3D
 
