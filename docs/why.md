@@ -1,8 +1,5 @@
 ### Why I Created Qx
 
-#### Qx is trying to solve
-- Bloat in game engines and frameworks
-- One framework to rule them all 2d, 3d, apps and games
 
 I created **Qx** because none of the existing tools fully matched how I like to work or what I want to build.
 
@@ -32,14 +29,23 @@ Qx exists for developers who:
 * Care about performance, binary size, and determinism
 * Need one tool for apps, tools, and games
 
-Qx takes inspiration from scene-graph–based systems like Qt and Godot, where structure, hierarchy, and determinism matter. But unlike large, all-encompassing frameworks, Qx is intentionally lightweight. It avoids bundling features by default and instead focuses on being a clean foundation.
+#### Qx is trying to solve
+- Bloat in game engines and frameworks
+- One framework to rule them all 2d, 3d, apps and games
 
+#### Qx is not, and not trying to be:
+- Large games engine
+- Large world game engine
+- Certainly not AAA game engine
+
+Qx takes inspiration from scene-graph–based systems like Qt and Godot, where structure, hierarchy, and determinism matter. But unlike large, all-encompassing frameworks, Qx is intentionally lightweight. It avoids bundling features by default and instead focuses on being a clean foundation.
 
 Qx is not trying to compete head-on with massive engines. Instead, it’s built to give developers a clean, efficient foundation—combining the structural elegance of scene graphs with modern rendering and physics—without the overhead and constraints of larger platforms.
 
 Qx exists because modern development tools have drifted away from simplicity. Over time, engines and frameworks have grown into massive ecosystems. They are powerful, but heavy. Feature-rich, but rigid. Optimized for every use case—except the one where a developer wants clarity, control, and speed.
 
 Qx was created as a response to that. It is built on the belief that **an engine should serve the developer, not dictate the workflow**.
+
 
 
 
