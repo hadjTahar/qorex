@@ -26,7 +26,7 @@
 
 
 
-#### Clang args.gn on windows - skia_lib_windows10_clang_release_x64:
+#### Clang args.gn on windows - windows10_clang_release_x64___:
 
 	# Set build arguments here. See `gn help buildargs`.
 	target_cpu = "x64"
@@ -47,7 +47,7 @@
 	skia_enable_tools = false
 	Select backend
 
-#### MSVC args.gn on windows - skia_lib_windows10_msvc_release_x64:
+#### MSVC args.gn on windows - windows10_msvc_release_x64___:
 
 	# Set build arguments here. See `gn help buildargs`.
 	target_cpu = "x64"
@@ -84,5 +84,6 @@ Sometimes gn defaults to x86, if there is a build mismatch, open toolchain.ninja
 
 
 ## Bazel
+
 
 Bazel is the recommended way to build skia, but I was not sucessfull
