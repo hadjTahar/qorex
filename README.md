@@ -13,6 +13,7 @@ Qorex as in Core Graphics, Qx as a shortcut, is a C++ game engine, app developme
 	- bgfx ❌
 	- magnum ❌
 
+**For more information check docs folder**
 
 ### How to build
 
