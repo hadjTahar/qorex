@@ -62,7 +62,6 @@
 	skia_use_system_icu = false
 	skia_use_icu = false
 	skia_enable_tools = false
-	Select backend
 	Select backend "GPU backend flags below"
 
 #### Build mismatch
@@ -88,4 +87,5 @@ Sometimes gn defaults to x86, if there is a build mismatch, open toolchain.ninja
 
 
 Bazel is the recommended way to build skia, but I was not sucessfull
+
 
