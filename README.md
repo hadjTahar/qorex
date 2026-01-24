@@ -13,8 +13,20 @@ Qorex as in Core Graphics, Qx as a shortcut, is a C++ game engine, app developme
 	- bgfx ❌
 	- magnum ❌
 
-**For more information check docs folder**
 
+Everything is modular, other functionalities are added as modules
+
+It provides:
+- Loop
+- Windowing system
+- Windows events
+- Scene graph 
+- Transforms
+- Assets loading 
+- Basic rendering functionalities 
+
+**For more information check docs folder**
+	
 ### How to build
 
 #### Skia backend
