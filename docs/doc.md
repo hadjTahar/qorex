@@ -70,8 +70,19 @@ App
 					- An abstraction for the backend and holds the backend objects and types it gets passed to the, GraphicsItem::render,  it renders the same scene to multiple views
 					- Skia, ThorVG, Blend2D
 			- ::SceneView (3D backend)
- 
-#### Canvas (backends)
+
+### Properties
+
+One downside is that , it does not work well with auto, but it can be circumvented, by using the getter equivilant.
+
+Eg:
+
+	const auto pos = item->transform.position; /// ## Will not return a vec3
+	const auto pos = item->transform.position(); /// ## Will return a vec3
+	const vec3 pos = item->transform.position; /// ## Will return a vec3
+
+
+#### Rendering (backends)
 
 ### 2D VS 3D
 
