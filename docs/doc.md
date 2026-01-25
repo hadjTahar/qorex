@@ -78,9 +78,14 @@ One downside is that , it does not work well with auto, but it can be circumvent
 Eg:
 
 	const auto pos = item->transform.position; /// ## Will not return a vec3
-	const auto pos = item->transform.position(); /// ## Will return a vec3
+	const auto pos = item->transform.getPosition(); /// ## Will return a vec3
 	const vec3 pos = item->transform.position; /// ## Will return a vec3
 
+Property flags propagates upward, to alert the parent about a child's state change ( transfomr, render, ...)
+
+Property values, after checkPropertOptions, propagate downwards the values to the children, Eg.
+  Transforms
+  Visibility
 
 #### Rendering (backends)
 
