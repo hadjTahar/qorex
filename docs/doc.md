@@ -36,8 +36,28 @@ QX_OPT_PRINT_VERBOSE_LEVEL
   - 4 Print node name
 
 
+### Loops:
+
+- Event loop SDL_iterate
+- Windows loops
+- Layers loops
+- Views loops
+
 ### Classes
 #### Objects (scene tree)
+
+<pre>
+App
+ └─ Windows
+     └─ Layers
+         └─ Views (camera + bounds)
+</pre>
+
+
+- An app can have multiple windows
+- Each window can have mutiple graphic layers
+- Each graphic layer, can have multiple views( camera, bounds) 
+
 - App
 	- Windows
 		- GraphicsLayer:
