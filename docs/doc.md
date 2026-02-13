@@ -102,6 +102,20 @@ Property values, after checkPropertOptions, propagate downwards the values to th
     - ::render( RenderContext )
     - ::RenderContext->addModel()
 
+- Views
+  - Has a viewport transform
+  - HAs a camera transform
+  - To render you, apply the viewport transform, then the camera transform to the canvas or context
+  - Loop and render the items with a lod
+  - You can’t remove views once added, only hide them.
+
+
+Mouse events:
+  - Maps the mouse coordinates to the views coords
+  - Loop the mouse components and check
+
+
+
 ## Not yet ❌
 ----
 ### Spatial tree quad
