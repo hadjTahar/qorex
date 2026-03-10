@@ -39,9 +39,27 @@ QX_OPT_PRINT_VERBOSE_LEVEL
 ### Loops:
 
 - Event loop SDL_iterate
-- Windows loops
-- Layers loops
-- Views loops
+Loops:
+   1 - windows loop
+   2 - layers loop
+   3 - Components process loop
+   4 - Item updateItem loop
+      Loops only if property flag values changed
+   5 - Item render loops
+         Loops only if property flag values changed
+   6 - Views loops
+   6 - Components render loops??
+
+
+The property flag propagates upwards, from child items to parent until window, and can be changed with
+
+If no changes are detected, only loops (1,2 and 3) are run
+
+- Process
+- Timers
+- Events
+
+
 
 ### Classes
 #### Objects (scene tree)
