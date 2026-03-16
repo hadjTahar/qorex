@@ -132,7 +132,15 @@ Mouse events:
   - Maps the mouse coordinates to the views coords
   - Loop the mouse components and check
 
+#### Dynamic behavior
 
+- Timers
+   - Looped Timers
+   - Singleshot Timers
+- Components:
+   - ::process
+   - DynamicEase ( Linear, Bezier and Damped )
+   
 
 ## Not yet ❌
 ----
