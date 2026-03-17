@@ -139,7 +139,7 @@ Mouse events:
    - Singleshot Timers
 - Components:
    - ::process
-   - DynamicEase ( Linear, Bezier and Damped )
+   - DynamicEase ( Linear, Bezier, Damped and CSS like Polynomial Eases )
    
 
 ## Not yet ❌
