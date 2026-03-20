@@ -141,6 +141,10 @@ Mouse events:
    - ::process
    - DynamicEase ( Linear, Bezier, Damped and CSS like Polynomial Eases )
    
+### Camel case vs snake case convention
+
+For dev functions and names camel case is used, but snake case for debugging utilities, like dbg_print, dbg_assert
+
 
 ## Not yet ❌
 ----
