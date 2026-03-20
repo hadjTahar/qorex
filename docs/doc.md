@@ -140,6 +140,12 @@ Mouse events:
 - Components:
    - ::process
    - DynamicEase ( Linear, Bezier, Damped and CSS like Polynomial Eases )
+
+### Components
+
+    When a new components is added, the components are sorted by their parentItem hierarchy,
+    to ensure CoreComponent::process calls, are called properly.
+    If there is a lag or a delay, probably it's a sorting issue
    
 ### Camel case vs snake case convention
 
