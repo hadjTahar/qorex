@@ -28,12 +28,13 @@ All options are editable at the cmake level, except QX_OPT_ENABLE_TRACKER, in : 
 ## Options
 ### Print debugging verbose level
 
-QX_OPT_PRINT_VERBOSE_LEVEL
-  - 0 Print message
-  - 1 Print dbg prefix ( Debug, error, ...)
-  - 2 Print method
-  - 3 Print type name
-  - 4 Print node name
+QX_OPT_PRINT_LEVEL
+  - 0 Disable printing
+  - 1 Print message
+  - 2 Print dbg prefix ( Debug, error, ...)
+  - 3 Print method
+  - 4 Print type name
+  - 5 Print node name
 
 
 ### Loops:
