@@ -106,6 +106,14 @@ Property values, after checkPropertOptions, propagate downwards the values to th
   Transforms
   Visibility
 
+### Rendering API's abstractions
+- Canvas Back end API
+	- ( skia, SDL, ... )
+- Canvas API
+	- Abstraction for the Canvas Back end
+- Scene graph API
+	- QML and Godot like
+
 #### Rendering (backends)
 
 ### 2D VS 3D
