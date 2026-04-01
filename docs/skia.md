@@ -36,6 +36,8 @@
 	clang_win = "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/Llvm/x64"
 	is_official_build = true
 	is_component_build = false 
+	skia_use_freetype = true
+	skia_use_system_freetype2 = false
 	skia_use_system_libjpeg_turbo = false
 	skia_use_system_zlib = false
 	skia_use_system_harfbuzz = false
@@ -53,6 +55,8 @@
 	target_cpu = "x64"
 	is_official_build = true
 	is_component_build = false 
+	skia_use_freetype = true
+	skia_use_system_freetype2 = false
 	skia_use_system_libjpeg_turbo = false
 	skia_use_system_zlib = false
 	skia_use_system_harfbuzz = false
@@ -64,12 +68,14 @@
 	skia_enable_tools = false
 	Select backend "GPU backend flags below"
 
+
 #### Build mismatch
 
 Sometimes gn defaults to x86, if there is a build mismatch, open toolchain.ninja, and check if command(s) are pointing to the right arch x86/x64 folder.
 - x86 : "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/Llvm/bin"
 - x64 : "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/Llvm/x64/bin"
 
+For now I change the paths manually, search and replace "x64" with "x86" and it works on windows
 
 
 #### GPU backend flags
