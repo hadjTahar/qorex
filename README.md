@@ -1,6 +1,6 @@
-# Qorex
+# Qaudex
 
-Qorex as in Core Graphics, Qx as a shortcut, is a C++ game engine, app development framewrok in the making, based on:
+Qaudex as in Core Graphics, Qx as a shortcut, is a C++ game engine, app development framewrok in the making, based on:
 
 - SDL3 windowing system
 - 2D multiple rendering backends
